@@ -1,0 +1,92 @@
+body {
+	margin: 0 auto;
+    color: grey;
+	background-color: white;
+	font-family: helvetica;
+}
+header {
+	width: 100%;
+	height: 3em;
+	padding-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+	top: 0px;
+	position: fixed;
+	background-color: #AFD8D8;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 2em 1em 0 1em;
+	font-size: 1em;
+}
+nav a:nth-child(3) {
+	margin: 0 0.5em;
+}
+nav a:hover {
+	color: white;
+	background-color: #B7DCDC;
+	padding-bottom: 1.8em;
+	border-bottom: solid 3px white;
+}
+/*input[type="text"] {
+}*/
+h1, h2, h3 {
+	font-family: 'Quantico', sans-serif;
+	margin-bottom: 1em;
+	color: #303030;
+}
+article {
+	margin: 0 auto;
+	width: 60%;
+}
+#intro {
+	text-align: center;
+}
+h1 {
+	text-align: left;
+	font-size: 2.1em;
+	margin-top: 5em;
+}
+#intro p {
+	text-align: left;
+	margin-top: 4em;
+	font-size: 1.4em;
+}
+.logo {
+	float: left;
+	margin: -1.4em 30% 0 11%;
+}
+.lino {
+	border-radius: 100%;
+	border: solid 6px #B7DCDC;
+	margin-top: 5em;
+	width: 250px;
+	height: 250px;
+}
+#bron {
+	text-align: right;
+	font-size: 0.8em;
+	margin-top: 1em;
+	font-weight: bold;
+}
+span {
+	color: #AFD8D8;
+}
+#about {
+	margin: 0 auto;
+}
+#about h1 {
+	text-align: left;
+	margin: 7em 0 3em 0;
+}
+footer {
+	margin-top: 5em;
+	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	.logo {
+		margin: -1.4em 0% 0 11%;
+	}
+}
